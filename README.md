@@ -11,13 +11,13 @@
 
 ```java
 class Student{
-    private String name;
-    private int rollNo;
+  private String name;  // name of the student
+  private int rollNo;  // roll number of the student
    
-    Student(String s, int r)
+    Student(String s, int r) // Constructor for the Student class ( Parameters)
     {
-   	    name = s;
-   	    rollNo = r;
+   	    name = s;     //   s: name of the student set
+      rollNo = r;    //   r: roll number of the student set
     }
    
     void methodForDisplay()
@@ -26,7 +26,7 @@ class Student{
     }
 
     public static void main(String[] args) {
-        Student obj1=new Student("Rambo",21);
+        Student obj1=new Student("Rambo",21); // Create a new Student with name "Rambo" and roll number 21
         obj1.methodForDisplay();
     }
 }
